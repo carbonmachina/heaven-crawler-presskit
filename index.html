@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Heaven Crawler - Press Kit</title>
+  <meta name="description" content="Official press kit for Heaven Crawler, a fast-paced action roguelike / vertical dungeon crawler set in a vertical, fractured celestial world.">
+  <meta name="author" content="Your Studio Name">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Heaven Crawler - Press Kit">
+  <meta property="og:description" content="Official press kit for Heaven Crawler, a fast-paced action roguelike / vertical dungeon crawler set in a vertical, fractured celestial world.">
+  
+  <!-- FontAwesome for Premium Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Local Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Mobile Top Navigation Header (visible on mobile only) -->
+  <header class="mobile-header">
+    <span class="mobile-title data-game-name">Heaven Crawler</span>
+    <button class="mobile-menu-btn" id="theme-toggle-mobile" onclick="document.getElementById('theme-toggle').click();" aria-label="Toggle Theme">
+      <i class="fa-solid fa-circle-half-stroke"></i>
+    </button>
+  </header>
+
+  <div class="app-container">
+    
+    <!-- Left Sidebar (Desktop Navigation) -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <!-- Developer Studio Icon/Logo -->
+        <div style="text-align: center;">
+          <i class="fa-solid fa-gamepad" style="font-size: 2.5rem; color: var(--primary-accent); margin-bottom: 0.5rem; display: block;"></i>
+        </div>
+        <h2 class="sidebar-title data-game-name">Heaven Crawler</h2>
+        <p class="sidebar-subtitle">Official Press Kit</p>
+      </div>
+
+      <!-- Scroll-Spy Navigation Links -->
+      <nav style="flex-grow: 1;">
+        <ul class="sidebar-nav">
+          <li><a href="#about" class="nav-link active"><i class="fa-solid fa-circle-info"></i> About</a></li>
+          <li><a href="#history" class="nav-link"><i class="fa-solid fa-timeline"></i> History</a></li>
+          <li><a href="#features" class="nav-link"><i class="fa-solid fa-star"></i> Features</a></li>
+          <li><a href="#videos" class="nav-link"><i class="fa-solid fa-video"></i> Videos</a></li>
+          <li><a href="#screenshots" class="nav-link"><i class="fa-solid fa-images"></i> Screenshots</a></li>
+          <li><a href="#logos" class="nav-link"><i class="fa-solid fa-bezier-curve"></i> Logo & Icon</a></li>
+          <li><a href="#quotes" class="nav-link"><i class="fa-solid fa-quote-left"></i> Quotes</a></li>
+          <li><a href="#awards" class="nav-link"><i class="fa-solid fa-award"></i> Awards</a></li>
+          <li><a href="#developer" class="nav-link"><i class="fa-solid fa-building"></i> Developer</a></li>
+        </ul>
+      </nav>
+
+      <!-- Sidebar Footer (Socials + Theme Selector) -->
+      <div class="sidebar-footer">
+        <div class="social-links" id="sidebar-socials">
+          <!-- Populated dynamically via JS -->
+        </div>
+        <button class="theme-toggle-btn" id="theme-toggle">
+          <i class="fa-solid fa-sun"></i>
+          <span>Theme Toggle</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      
+      <!-- Left Column (Primary Details) -->
+      <div class="sections-container">
+        
+        <!-- Game Title and Tagline Header -->
+        <header class="presskit-header">
+          <h1 class="game-title data-game-name">Heaven Crawler</h1>
+          <p class="game-tagline data-tagline">Climb the heavens. Purge the celestial realm. Survive the descent.</p>
+        </header>
+
+        <!-- Section: About -->
+        <section id="about">
+          <h3 class="section-title"><i class="fa-solid fa-circle-info"></i> About the Game</h3>
+          <div class="section-card">
+            <p class="desc-text" id="game-short-desc" style="font-weight: 600; font-size: 1.15rem; border-left: 3px solid var(--primary-accent); padding-left: 1rem; margin-bottom: 1.5rem;"></p>
+            <p class="desc-text" id="game-full-desc"></p>
+          </div>
+        </section>
+
+        <!-- Section: History -->
+        <section id="history">
+          <h3 class="section-title"><i class="fa-solid fa-timeline"></i> Brief History</h3>
+          <div class="section-card">
+            <div class="history-timeline" id="history-list">
+              <!-- Populated dynamically via JS -->
+            </div>
+          </div>
+        </section>
+
+        <!-- Section: Features -->
+        <section id="features">
+          <h3 class="section-title"><i class="fa-solid fa-star"></i> Key Features</h3>
+          <div class="section-card">
+            <ul class="features-ul" id="features-list">
+              <!-- Populated dynamically via JS -->
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section: Videos -->
+        <section id="videos">
+          <h3 class="section-title"><i class="fa-solid fa-video"></i> Videos & Trailers</h3>
+          <div class="videos-grid" id="videos-grid">
+            <!-- Populated dynamically via JS -->
+          </div>
+        </section>
+
+        <!-- Section: Screenshots -->
+        <section id="screenshots">
+          <h3 class="section-title"><i class="fa-solid fa-images"></i> Screenshots</h3>
+          <div class="screenshots-grid" id="screenshots-grid">
+            <!-- Populated dynamically via JS -->
+          </div>
+        </section>
+
+        <!-- Section: Logo & Icon -->
+        <section id="logos">
+          <h3 class="section-title"><i class="fa-solid fa-bezier-curve"></i> Logo & Icon Assets</h3>
+          <div class="section-card">
+            <div class="logo-assets-grid">
+              <div class="asset-box">
+                <img id="presskit-logo" src="" alt="Game Logo">
+                <div class="asset-download-overlay">
+                  <a id="logo-download-link" href="" target="_blank" class="dl-icon-btn"><i class="fa-solid fa-download"></i> Download Logo PNG</a>
+                </div>
+              </div>
+              <div class="asset-box icon-box">
+                <img id="presskit-icon" src="" alt="Game Icon">
+                <div class="asset-download-overlay">
+                  <a id="icon-download-link" href="" target="_blank" class="dl-icon-btn"><i class="fa-solid fa-download"></i> Download Icon PNG</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section: Selected Quotes -->
+        <section id="quotes">
+          <h3 class="section-title"><i class="fa-solid fa-quote-left"></i> Selected Articles & Quotes</h3>
+          <div class="quotes-grid" id="quotes-list">
+            <!-- Populated dynamically via JS -->
+          </div>
+        </section>
+
+        <!-- Section: Awards -->
+        <section id="awards">
+          <h3 class="section-title"><i class="fa-solid fa-award"></i> Awards & Recognition</h3>
+          <div class="awards-list" id="awards-list">
+            <!-- Populated dynamically via JS -->
+          </div>
+        </section>
+
+        <!-- Section: About Developer -->
+        <section id="developer">
+          <h3 class="section-title"><i class="fa-solid fa-building"></i> About the Developer</h3>
+          <div class="section-card">
+            <p class="desc-text" id="developer-desc"></p>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- Right Column (Factsheet & Assets Panel) -->
+      <div class="factsheet-sidebar">
+        
+        <!-- Factsheet Info Card -->
+        <div class="factsheet-card">
+          <h3 class="factsheet-title">Factsheet</h3>
+          <div class="factsheet-list" id="factsheet-list">
+            <!-- Populated dynamically via JS -->
+          </div>
+        </div>
+
+        <!-- Direct Download Zip Card -->
+        <div class="factsheet-card zip-download-card">
+          <h3 class="factsheet-title">Press Assets</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem;">Download all transparent logos, standard color codes, and high-res screenshots in a single package.</p>
+          <a href="#" class="btn-zip" id="download-zip-btn"><i class="fa-solid fa-file-zipper"></i> Download ZIP File</a>
+        </div>
+
+        <!-- Quick Contacts Card -->
+        <div class="factsheet-card">
+          <h3 class="factsheet-title">Contact</h3>
+          <ul class="contact-ul" id="contact-details">
+            <!-- Populated dynamically via JS -->
+          </ul>
+        </div>
+
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Full-Screen Interactive Screenshot Lightbox Modal -->
+  <div class="lightbox-modal" id="lightbox-modal">
+    <button class="lightbox-close" id="modal-close" aria-label="Close Gallery"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lightbox-nav lightbox-prev" id="modal-prev" aria-label="Previous Image"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="lightbox-nav lightbox-next" id="modal-next" aria-label="Next Image"><i class="fa-solid fa-chevron-right"></i></button>
+    
+    <div class="lightbox-content">
+      <img id="modal-img" src="" alt="Enlarged screenshot">
+    </div>
+    
+    <div class="lightbox-caption" id="modal-caption">Caption goes here.</div>
+    
+    <div class="lightbox-toolbar">
+      <a href="#" id="modal-download" class="lightbox-btn" title="Download High-Res Screenshot"><i class="fa-solid fa-download"></i></a>
+    </div>
+  </div>
+
+  <!-- Load press data config first, then main rendering scripts -->
+  <script src="presskit-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
