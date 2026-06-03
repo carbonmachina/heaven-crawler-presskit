@@ -10,7 +10,7 @@
 const PRESSKIT_DATA = {
   // --- FACTSHEET ---
   factsheet: {
-    developer: "Your Studio Name",
+    developer: "Carbon Machina",
     developerLink: "https://yourstudio.com",
     basedIn: "City, Country",
     releaseDate: "TBA / Coming Soon",
