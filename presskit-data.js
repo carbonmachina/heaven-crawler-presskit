@@ -83,7 +83,6 @@ history: [
   // Store these images in your `/images` folder, then list their filenames here.
   // We've put placeholder URLs from Unsplash so you can see how it looks out-of-the-box!
   logo: "images/LOGO_HD.png", // Path to your logo (transparent PNG recommended, e.g., "images/logo.png")
-  logo: "images/CM_logo.png", // Path to your logo (transparent PNG recommended, e.g., "images/logo.png")
   icon: "images/HC_Icon.png", // Path to your square icon/avatar (e.g., "images/icon.png")
   
   // High-res screenshots (recommended size: 1920x1080)
