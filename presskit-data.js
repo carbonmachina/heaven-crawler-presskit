@@ -70,11 +70,11 @@ history: [
   videos: [
     {
       title: "Teaser Trailer - LAGS 2024",
-      youtubeId: "https://youtu.be/-A5Z86Qi9-o" // Replace with your YouTube video ID
+      youtubeId: "-A5Z86Qi9-o" // Replace with your YouTube video ID
     },
     {
       title: "Kickstarer Announcement Trailer - LAGS 2026",
-      youtubeId: "https://youtu.be/_GxUC5dlLF4" // Replace with your YouTube video ID
+      youtubeId: "_GxUC5dlLF4" // Replace with your YouTube video ID
     }
   ],
 
@@ -144,6 +144,6 @@ history: [
     email: "carbonmachina@gmail.com",
     twitter: "@Heaven_Crawler",
     twitterUrl: "https://x.com/Heaven_Crawler",
-    instagramUrl: "hhttps://www.instagram.com/heavencrawlergame/",
+    instagramUrl: "https://www.instagram.com/heavencrawlergame/",
   }
 };
