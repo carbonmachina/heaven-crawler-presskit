@@ -17,7 +17,7 @@ const PRESSKIT_DATA = {
     platforms: [
       "PC / Steam"
     ],
-    website: "https://heavencrawler.com",
+    website: "https://www.kickstarter.com/projects/carbonmachina/heaven-crawler-immersive-exploration-based-dungeon-crawler",
     regularPrice: "$19.99 USD",
     monetization: "Single purchase. No microtransactions or pay-to-win mechanics."
   },
@@ -58,11 +58,21 @@ history: [
 
   // --- KEY FEATURES ---
   features: [
-    "Vertical Dungeon Crawling: Navigate upwards through vertical rooms, using grappling mechanics and jump boots to scale towering arenas.",
-    "Dynamic Deckbuilding: Choose and evolve skills dynamically as you climb. Combine wind dashes, lightning strikes, and shield parries to create broken builds.",
-    "Deicide Boss Fights: Engage in multi-phase, screen-filling battles against corrupt celestial guardians.",
-    "Procedural Sky Layers: No two climbs are the same. Wind currents, falling debris, and celestial gravity shifts keep you on your toes.",
-    "Stunning Retro-Modern Aesthetics: Hand-drawn pixel art characters combined with modern volumetric lighting and particle systems."
+    "ASCEND A LIVING TOWER. The babelian structure is ever-changing, with deep
+mysteries and even deeper layers—each with its own unique aesthetic and challenges
+that adapt to the player’s performance.",
+    "DYNAMIC, MODULAR COMBAT. Mix and match gear to create your own playstyle,
+unleash devastating combos, and develop.",
+    "HAND-ANIMATED HERO, PROCEDURALLY ANIMATED FOES. Mechanical animals
+roam the Tower, each with distinct patterns, behaviors, and attacks. They react
+dynamically to both the environment and each other, demanding constant attention.",
+    "EACH DEATH, A NEW BEGINNING. Unlock new content, abilities, and possibilities as
+you grow stronger—but the Tower evolves alongside you. Optional challenge modifiers
+increase both risk and reward for advanced players.",
+    "A STORY TOLD THROUGH THE GENRE ITSELF. Heaven Crawler uses the
+Sisyphean structure of the roguelite to tell a story about loss, grief, and growing up. Its
+narrative is conveyed through gameplay and environment, where everything is a clue
+—and every clue serves a purpose."
   ],
 
   // --- VIDEOS & TRAILERS ---
