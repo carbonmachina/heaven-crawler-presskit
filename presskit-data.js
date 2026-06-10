@@ -54,7 +54,7 @@ history: [
     date: "June 2026",
     description: "Heaven Crawler announces its Kickstarter campaign."
   }
-		],
+],
 
   // --- KEY FEATURES ---
 	features: [
@@ -63,7 +63,7 @@ history: [
 	"DYNAMIC ENEMIES AND EMERGENT ENCOUNTERS. Mechanical animals roam the Tower, each with distinct behaviors, attacks, and interactions that create unpredictable situations.",
 	"EVERY DEATH CHANGES THE JOURNEY. Unlock new abilities, content, and opportunities with every attempt, while the Tower grows more dangerous alongside you.",
 	"A ROGUELITE ABOUT LOSS AND GROWTH. Experience a deeply personal story told through exploration, gameplay, and environmental storytelling, where every detail matters."
-]
+],
 
   // --- VIDEOS & TRAILERS ---
   // You can use YouTube video IDs (the part after v= in the URL, e.g., "dQw4w9WgXcQ")
