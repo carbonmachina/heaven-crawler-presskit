@@ -141,12 +141,9 @@ history: [
   
   // --- CONTACT & SOCIALS ---
   contact: {
-    email: "contact@yourstudio.com",
-    pressInquiries: "press@yourstudio.com",
-    twitter: "@HeavenCrawler",
-    twitterUrl: "https://twitter.com/yourhandle",
-    facebookUrl: "https://facebook.com/yourpage",
-    instagramUrl: "https://instagram.com/yourpage",
-    discordUrl: "https://discord.gg/yourserver"
+    email: "carbonmachina@gmail.com",
+    twitter: "@Heaven_Crawler",
+    twitterUrl: "https://x.com/Heaven_Crawler",
+    instagramUrl: "hhttps://www.instagram.com/heavencrawlergame/",
   }
 };
