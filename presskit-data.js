@@ -99,11 +99,10 @@ history: [
       caption: "Colossal Mechanical Guardians.",
       url: "images/BossCinematic_04.gif"
     },
-
     {
       caption: "A Living Liminal Mega Structure.",
       url: "images/RoomChanges_03.gif"
-    }
+    },
 	{
       caption: "Expansive Persistent HUB.",
       url: "images/NPC_02.gif"
@@ -112,7 +111,6 @@ history: [
       caption: "Stylized Analog Inventory.",
       url: "images/HeavenCrawler_Inventory_SS_001.gif"
     },
-
     {
       caption: "An Emotional Adventure Awaits.",
       url: "images/LAGS2026_Intro_02.gif"
