@@ -57,16 +57,12 @@ history: [
 		],
 
   // --- KEY FEATURES ---
-features: [
-"ASCEND A LIVING TOWER. Explore The Womb, a colossal man-made structure built to reach the heavens. Every layer presents new challenges, secrets, and dangers to overcome.",
-
-"MODULAR COMBAT WITH MECHANICAL ARMS. Customize your loadout, discover powerful synergies, and develop a combat style that is uniquely your own.",
-
-"DYNAMIC ENEMIES AND EMERGENT ENCOUNTERS. Mechanical animals roam the Tower, each with distinct behaviors, attacks, and interactions that create unpredictable situations.",
-
-"EVERY DEATH CHANGES THE JOURNEY. Unlock new abilities, content, and opportunities with every attempt, while the Tower grows more dangerous alongside you.",
-
-"A ROGUELITE ABOUT LOSS AND GROWTH. Experience a deeply personal story told through exploration, gameplay, and environmental storytelling, where every detail matters."
+	features: [
+	"ASCEND A LIVING TOWER. Explore The Womb, a colossal man-made structure built to reach the heavens. Every layer presents new challenges, secrets, and dangers to overcome.",
+	"MODULAR COMBAT WITH MECHANICAL ARMS. Customize your loadout, discover powerful synergies, and develop a combat style that is uniquely your own.",
+	"DYNAMIC ENEMIES AND EMERGENT ENCOUNTERS. Mechanical animals roam the Tower, each with distinct behaviors, attacks, and interactions that create unpredictable situations.",
+	"EVERY DEATH CHANGES THE JOURNEY. Unlock new abilities, content, and opportunities with every attempt, while the Tower grows more dangerous alongside you.",
+	"A ROGUELITE ABOUT LOSS AND GROWTH. Experience a deeply personal story told through exploration, gameplay, and environmental storytelling, where every detail matters."
 ]
 
   // --- VIDEOS & TRAILERS ---
