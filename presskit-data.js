@@ -11,48 +11,50 @@ const PRESSKIT_DATA = {
   // --- FACTSHEET ---
   factsheet: {
     developer: "Carbon Machina",
-    developerLink: "https://yourstudio.com",
-    basedIn: "City, Country",
-    releaseDate: "TBA / Coming Soon",
+    developerLink: "https://www.carbonmachina.com/",
+    basedIn: "México",
+    releaseDate: "TBA 2027",
     platforms: [
-      "PC / Steam",
-      "Nintendo Switch",
-      "PlayStation 5",
-      "Xbox Series X/S"
+      "PC / Steam"
     ],
     website: "https://heavencrawler.com",
     regularPrice: "$19.99 USD",
     monetization: "Single purchase. No microtransactions or pay-to-win mechanics."
   },
 
-  // --- GAME DESCRIPTION ---
-  gameName: "Heaven Crawler",
-  tagline: "Climb the heavens. Purge the celestial realm. Survive the descent.",
-  
-  description: {
-    short: "An intense, action-packed dungeon crawler set in a vertical, fractured celestial world where you climb to dethrone corrupt deities.",
-    full: "Heaven Crawler is a fast-paced vertical action roguelike / dungeon crawler. Players step into the boots of a fallen warrior seeking redemption by ascending the steps of the Shattered Heavens. Battle through procedurally generated celestial layers, harvest divine essence to upgrade your arsenal, and challenge the grand guardians of the sky. With tactical, physics-based combat and a rich deckbuilding skill system, every climb presents a unique trial."
-  },
+// --- GAME DESCRIPTION ---
+gameName: "Heaven Crawler",
+tagline: "Heaven has taken enough. Time to take it back.",
 
-  // --- HISTORY ---
-  history: [
-    {
-      date: "January 2025",
-      description: "Concept phase begins. The team decides to mix traditional crawler elements with vertical movement mechanics."
-    },
-    {
-      date: "June 2025",
-      description: "Alpha version completed. First closed playtests show highly positive reception for the physics-based combat."
-    },
-    {
-      date: "October 2025",
-      description: "Heaven Crawler is officially announced with a cinematic teaser trailer."
-    },
-    {
-      date: "Q3 2026",
-      description: "Target launch date on Steam Early Access."
-    }
-  ],
+description: {
+  short: "Explore, fight, and uncover the secrets of a mysterious tower using unique Mechanical Arms as you climb your way through a deeply personal journey.",
+  
+  full: "Explore The Womb, a forgotten man-made tower built to reach the heavens. Wield Mechanical Arms to overcome deadly enemies and carve your path upward on a deeply personal journey. And remember: bring her back."
+},
+
+// --- HISTORY ---
+history: [
+  {
+    date: "2018",
+    description: "Concept. Heaven Crawler is first prototyped by Miguel Cerda during his weekends and free time."
+  },
+  {
+    date: "March 2024",
+    description: "Pre-production. Carbon Machina joins the project to bring Heaven Crawler to life."
+  },
+  {
+    date: "June 2024",
+    description: "Heaven Crawler is officially announced with a teaser trailer."
+  },
+  {
+    date: "October 2025",
+    description: "Heaven Crawler wins the national Indie Game Dev Challenge by unanimous decision."
+  },
+  {
+    date: "June 2026",
+    description: "Heaven Crawler announces its Kickstarter campaign."
+  }
+		],
 
   // --- KEY FEATURES ---
   features: [
@@ -67,20 +69,20 @@ const PRESSKIT_DATA = {
   // You can use YouTube video IDs (the part after v= in the URL, e.g., "dQw4w9WgXcQ")
   videos: [
     {
-      title: "Official Announcement Trailer",
-      youtubeId: "dQw4w9WgXcQ" // Replace with your YouTube video ID
+      title: "Teaser Trailer - LAGS 2024",
+      youtubeId: "https://youtu.be/-A5Z86Qi9-o" // Replace with your YouTube video ID
     },
     {
-      title: "Early Alpha Gameplay Showcase",
-      youtubeId: "dQw4w9WgXcQ" // Replace with your YouTube video ID
+      title: "Kickstarer Announcement Trailer - LAGS 2026",
+      youtubeId: "https://youtu.be/_GxUC5dlLF4" // Replace with your YouTube video ID
     }
   ],
 
   // --- IMAGES & SCREENSHOTS ---
   // Store these images in your `/images` folder, then list their filenames here.
   // We've put placeholder URLs from Unsplash so you can see how it looks out-of-the-box!
-  logo: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80", // Path to your logo (transparent PNG recommended, e.g., "images/logo.png")
-  icon: "https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?w=200&auto=format&fit=crop&q=80", // Path to your square icon/avatar (e.g., "images/icon.png")
+  logo: "images/LOGO_HD.png", // Path to your logo (transparent PNG recommended, e.g., "images/logo.png")
+  icon: "images/Heaven_crawler_STEAM_3_MAIN.png", // Path to your square icon/avatar (e.g., "images/icon.png")
   
   // High-res screenshots (recommended size: 1920x1080)
   screenshots: [
