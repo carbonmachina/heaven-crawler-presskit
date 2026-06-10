@@ -57,23 +57,17 @@ history: [
 		],
 
   // --- KEY FEATURES ---
-  features: [
-    "ASCEND A LIVING TOWER. The babelian structure is ever-changing, with deep
-mysteries and even deeper layers—each with its own unique aesthetic and challenges
-that adapt to the player’s performance.",
-    "DYNAMIC, MODULAR COMBAT. Mix and match gear to create your own playstyle,
-unleash devastating combos, and develop.",
-    "HAND-ANIMATED HERO, PROCEDURALLY ANIMATED FOES. Mechanical animals
-roam the Tower, each with distinct patterns, behaviors, and attacks. They react
-dynamically to both the environment and each other, demanding constant attention.",
-    "EACH DEATH, A NEW BEGINNING. Unlock new content, abilities, and possibilities as
-you grow stronger—but the Tower evolves alongside you. Optional challenge modifiers
-increase both risk and reward for advanced players.",
-    "A STORY TOLD THROUGH THE GENRE ITSELF. Heaven Crawler uses the
-Sisyphean structure of the roguelite to tell a story about loss, grief, and growing up. Its
-narrative is conveyed through gameplay and environment, where everything is a clue
-—and every clue serves a purpose."
-  ],
+features: [
+"ASCEND A LIVING TOWER. Explore The Womb, a colossal man-made structure built to reach the heavens. Every layer presents new challenges, secrets, and dangers to overcome.",
+
+"MODULAR COMBAT WITH MECHANICAL ARMS. Customize your loadout, discover powerful synergies, and develop a combat style that is uniquely your own.",
+
+"DYNAMIC ENEMIES AND EMERGENT ENCOUNTERS. Mechanical animals roam the Tower, each with distinct behaviors, attacks, and interactions that create unpredictable situations.",
+
+"EVERY DEATH CHANGES THE JOURNEY. Unlock new abilities, content, and opportunities with every attempt, while the Tower grows more dangerous alongside you.",
+
+"A ROGUELITE ABOUT LOSS AND GROWTH. Experience a deeply personal story told through exploration, gameplay, and environmental storytelling, where every detail matters."
+]
 
   // --- VIDEOS & TRAILERS ---
   // You can use YouTube video IDs (the part after v= in the URL, e.g., "dQw4w9WgXcQ")
