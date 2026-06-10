@@ -68,13 +68,14 @@ history: [
   // --- VIDEOS & TRAILERS ---
   // You can use YouTube video IDs (the part after v= in the URL, e.g., "dQw4w9WgXcQ")
   videos: [
-    {
-      title: "Teaser Trailer - LAGS 2024",
-      youtubeId: "-A5Z86Qi9-o" // Replace with your YouTube video ID
-    },
+   
     {
       title: "Kickstarer Announcement Trailer - LAGS 2026",
       youtubeId: "_GxUC5dlLF4" // Replace with your YouTube video ID
+    },
+	{
+      title: "Teaser Trailer - LAGS 2024",
+      youtubeId: "-A5Z86Qi9-o" // Replace with your YouTube video ID
     }
   ],
 
