@@ -107,17 +107,21 @@ history: [
 
   // --- LOGOS & OTHER ASSETS ZIP ---
   // Link to a .zip file containing all your marketing assets (logos, screenshots, icons)
-  downloadZipUrl: "#", // e.g., "assets/heaven_crawler_presskit.zip" or a Google Drive link
+  downloadZipUrl: "#https://drive.google.com/drive/folders/1Cz93-WHIEscwkJKIfIhX-TP6RJ_A4G2u?usp=drive_link", // e.g., "assets/heaven_crawler_presskit.zip" or a Google Drive link
 
   // --- AWARDS & RECOGNITION ---
   awards: [
     {
       title: "Indie Showcase Selection",
-      event: "Awesome Game Festival 2025"
+      event: "Mexican Entertainment System 2025-2026"
     },
     {
-      title: "Best Gameplay Nominee",
-      event: "Starlight Indie Awards 2025"
+      title: "Most Anticipated Game Nominee",
+      event: "Game Effect Awards 2025"
+    },
+	{
+      title: "Best Indie Dev Pitch",
+      event: "Supernova Game Devs Challenge 2025"
     }
   ],
 
@@ -138,7 +142,7 @@ history: [
   ],
 
   // --- THE STUDIO / DEVELOPER INFO ---
-  aboutDeveloper: "We are an independent game studio passionate about making challenging, physics-based action games with rich customization systems. Founded in 2024, our mission is to create memorable worlds that players love climbing, fighting, and exploring.",
+aboutDeveloper: "Carbon Machina is an independent game studio dedicated to crafting challenging, highly interactive & immersive action-adventure RPGs. Founded in 2019 by Diego Muñoz, we focus on meaningful player expression, deep gameplay systems, and creating games that stand the test of time.",
   
   // --- CONTACT & SOCIALS ---
   contact: {
