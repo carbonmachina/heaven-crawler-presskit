@@ -147,7 +147,7 @@ history: [
 
   // --- LOGOS & OTHER ASSETS ZIP ---
   // Link to a .zip file containing all your marketing assets (logos, screenshots, icons)
-  downloadZipUrl: "#https://drive.google.com/drive/folders/1Cz93-WHIEscwkJKIfIhX-TP6RJ_A4G2u?usp=drive_link", // e.g., "assets/heaven_crawler_presskit.zip" or a Google Drive link
+  downloadZipUrl: "https://drive.google.com/drive/folders/1Cz93-WHIEscwkJKIfIhX-TP6RJ_A4G2u?usp=drive_link", // e.g., "assets/heaven_crawler_presskit.zip" or a Google Drive link
 
   // --- AWARDS & RECOGNITION ---
   awards: [
