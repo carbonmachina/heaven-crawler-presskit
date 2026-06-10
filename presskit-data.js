@@ -100,8 +100,8 @@ history: [
       url: "images/CameraChange_01.gif"
     },
     {
-      caption: "A Livig Liminal Mega Structure.",
-      url: "images/RoomChange_03.gif"
+      caption: "A Living Liminal Mega Structure.",
+      url: "images/RoomChanges_03.gif"
     }
   ],
   
