@@ -86,22 +86,42 @@ history: [
   icon: "images/Heaven_crawler_STEAM_3_MAIN.png", // Path to your square icon/avatar (e.g., "images/icon.png")
   
   // High-res screenshots (recommended size: 1920x1080)
-  screenshots: [
+  screenshots & gifs: [
     {
       caption: "Ascending the fractured steps of the first heaven.",
-      url: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80"
+      url: "images/NPC_02.gif"
     },
     {
       caption: "A chaotic battle against the lightning gargoyles.",
-      url: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&auto=format&fit=crop&q=80"
+      url: "images/BossCinematic_04.gif"
     },
     {
       caption: "Customizing active skills at the celestial campfire.",
-      url: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&auto=format&fit=crop&q=80"
+      url: "images/CameraChange_01"
     },
     {
       caption: "Facing the Arch-Seraph, Guardian of the Fourth Layer.",
-      url: "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1200&auto=format&fit=crop&q=80"
+      url: "images/RoomChange_03.gif"
+    }
+  ],
+  
+  // GIFS
+  gifs: [
+    {
+      caption: "Expansive Persistent HUB.",
+      url: "images/NPC_02.gif"
+    },
+    {
+      caption: "Colossal Mechanical Guardians.",
+      url: "images/BossCinematic_04.gif"
+    },
+    {
+      caption: "Dynamic 3rd Person Camera.",
+      url: "images/CameraChange_01"
+    },
+    {
+      caption: "A Livig Liminal Structure.",
+      url: "images/RoomChange_03.gif"
     }
   ],
 
