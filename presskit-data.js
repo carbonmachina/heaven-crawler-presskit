@@ -87,21 +87,39 @@ history: [
   
   // High-res screenshots (recommended size: 1920x1080)
   screenshots: [
-    {
-      caption: "Expansive Persistent HUB.",
-      url: "images/NPC_02.gif"
+	{
+      caption: "Dynamic 3rd Person Camera.",
+      url: "images/CameraChange_01.gif"
+    },
+	{
+      caption: "Mix and Match Equipment.",
+      url: "images/Bodygear_04.gif"
     },
     {
       caption: "Colossal Mechanical Guardians.",
       url: "images/BossCinematic_04.gif"
     },
-    {
-      caption: "Dynamic 3rd Person Camera.",
-      url: "images/CameraChange_01.gif"
-    },
+
     {
       caption: "A Living Liminal Mega Structure.",
       url: "images/RoomChanges_03.gif"
+    }
+	{
+      caption: "Expansive Persistent HUB.",
+      url: "images/NPC_02.gif"
+    },    
+	{
+      caption: "Stylized Analog Inventory.",
+      url: "images/HeavenCrawler_Inventory_SS_001.gif"
+    },
+
+    {
+      caption: "An Emotional Adventure Awaits.",
+      url: "images/LAGS2026_Intro_02.gif"
+    },
+    {
+      caption: "Support Us on Kickstarter.",
+      url: "images/LAGS2026_ElevatorKickstarter_01.gif"
     }
   ],
   
