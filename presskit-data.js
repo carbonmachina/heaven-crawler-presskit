@@ -162,7 +162,7 @@ history: [
   ],
 
   // --- SELECTED ARTICLES & QUOTES ---
-  /*quotes: [
+  quotes: [
     {
       text: "Heaven Crawler mixes tight platforming mechanics with the best elements of roguelikes. It's a breath of fresh air.",
       author: "Indie Game Critic",
@@ -175,7 +175,7 @@ history: [
       website: "PixelEnthusiast.net",
       url: "https://example.com"
     }
-  ],*/
+  ],
 
   // --- THE STUDIO / DEVELOPER INFO ---
   aboutDeveloper: "Carbon Machina is an independent game studio dedicated to crafting challenging, highly interactive & immersive action-adventure RPGs. Founded in 2019 by Diego Muñoz, we focus on meaningful player expression, deep gameplay systems, and creating games that stand the test of time.",
