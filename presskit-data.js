@@ -88,19 +88,19 @@ history: [
   // High-res screenshots (recommended size: 1920x1080)
   screenshots: [
     {
-      caption: "Ascending the fractured steps of the first heaven.",
+      caption: "Expansive Persistent HUB.",
       url: "images/NPC_02.gif"
     },
     {
-      caption: "A chaotic battle against the lightning gargoyles.",
+      caption: "Colossal Mechanical Guardians.",
       url: "images/BossCinematic_04.gif"
     },
     {
-      caption: "Customizing active skills at the celestial campfire.",
-      url: "images/CameraChange_01"
+      caption: "Dynamic 3rd Person Camera.",
+      url: "images/CameraChange_01.gif"
     },
     {
-      caption: "Facing the Arch-Seraph, Guardian of the Fourth Layer.",
+      caption: "A Livig Liminal Mega Structure.",
       url: "images/RoomChange_03.gif"
     }
   ],
@@ -117,7 +117,7 @@ history: [
     },
     {
       caption: "Dynamic 3rd Person Camera.",
-      url: "images/CameraChange_01"
+      url: "images/CameraChange_01.gif"
     },
     {
       caption: "A Livig Liminal Structure.",
@@ -146,7 +146,7 @@ history: [
   ],
 
   // --- SELECTED ARTICLES & QUOTES ---
-  quotes: [
+  /*quotes: [
     {
       text: "Heaven Crawler mixes tight platforming mechanics with the best elements of roguelikes. It's a breath of fresh air.",
       author: "Indie Game Critic",
@@ -159,10 +159,10 @@ history: [
       website: "PixelEnthusiast.net",
       url: "https://example.com"
     }
-  ],
+  ],*/
 
   // --- THE STUDIO / DEVELOPER INFO ---
-aboutDeveloper: "Carbon Machina is an independent game studio dedicated to crafting challenging, highly interactive & immersive action-adventure RPGs. Founded in 2019 by Diego Muñoz, we focus on meaningful player expression, deep gameplay systems, and creating games that stand the test of time.",
+  aboutDeveloper: "Carbon Machina is an independent game studio dedicated to crafting challenging, highly interactive & immersive action-adventure RPGs. Founded in 2019 by Diego Muñoz, we focus on meaningful player expression, deep gameplay systems, and creating games that stand the test of time.",
   
   // --- CONTACT & SOCIALS ---
   contact: {
