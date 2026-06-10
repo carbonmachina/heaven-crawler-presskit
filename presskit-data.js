@@ -86,7 +86,7 @@ history: [
   icon: "images/Heaven_crawler_STEAM_3_MAIN.png", // Path to your square icon/avatar (e.g., "images/icon.png")
   
   // High-res screenshots (recommended size: 1920x1080)
-  screenshots & gifs: [
+  screenshots: [
     {
       caption: "Ascending the fractured steps of the first heaven.",
       url: "images/NPC_02.gif"
@@ -106,7 +106,7 @@ history: [
   ],
   
   // GIFS
-  gifs: [
+ /* gifs: [
     {
       caption: "Expansive Persistent HUB.",
       url: "images/NPC_02.gif"
@@ -123,7 +123,7 @@ history: [
       caption: "A Livig Liminal Structure.",
       url: "images/RoomChange_03.gif"
     }
-  ],
+  ],*/
 
   // --- LOGOS & OTHER ASSETS ZIP ---
   // Link to a .zip file containing all your marketing assets (logos, screenshots, icons)
