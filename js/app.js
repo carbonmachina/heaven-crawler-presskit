@@ -8,8 +8,20 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- Dynamic Content Rendering ---
   const data = PRESSKIT_DATA;
 
-  // Set page titles and names
+  // Set page titles, names, and favicon
   document.title = `${data.gameName} - Press Kit`;
+  
+  if (data.icon) {
+    let faviconLink = document.querySelector("link[rel~='icon']");
+    if (!faviconLink) {
+      faviconLink = document.createElement("link");
+      faviconLink.rel = "icon";
+      faviconLink.type = "image/png";
+      document.head.appendChild(faviconLink);
+    }
+    faviconLink.href = data.icon;
+  }
+
   const gameNameElements = document.querySelectorAll(".data-game-name");
   gameNameElements.forEach(el => el.textContent = data.gameName);
 
