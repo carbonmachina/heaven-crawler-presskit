@@ -720,6 +720,8 @@ section {
   font-size: 0.95rem;
   font-weight: 500;
   color: var(--text-color);
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /* ZIP Download Button */
@@ -970,4 +972,51 @@ section {
   .lightbox-nav {
     display: none; /* Rely on toolbar arrows on tiny mobile screens */
   }
+}
+
+/* --- Language Selector --- */
+.language-selector-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background: transparent;
+  color: var(--text-color);
+  transition: all 0.2s ease;
+}
+
+.language-selector-container:hover {
+  background: var(--border-color);
+  border-color: var(--border-hover);
+}
+
+.language-icon {
+  font-size: 1rem;
+  color: var(--text-muted);
+}
+
+.language-select-dropdown {
+  background: transparent;
+  border: none;
+  color: var(--text-color);
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+}
+
+.language-select-dropdown option {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Mobile specific overrides */
+.mobile-lang-container {
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--glass-border);
 }
