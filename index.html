@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Dynamic Muted Background Image -->
+  <div class="bg-image-overlay"></div>
 
   <!-- Mobile Top Navigation Header (visible on mobile only) -->
   <header class="mobile-header">
@@ -46,7 +48,7 @@
     <aside class="sidebar">
       <div class="sidebar-header">
         <!-- Developer Studio Icon/Logo -->
-        <div style="text-align: center;" id="sidebar-logo-container">
+        <div style="text-align: left;" id="sidebar-logo-container">
           <i class="fa-solid fa-gamepad" style="font-size: 2.5rem; color: var(--primary-accent); margin-bottom: 0.5rem; display: block;"></i>
         </div>
         <h2 class="sidebar-title data-game-name">Heaven Crawler</h2>
@@ -95,8 +97,17 @@
       <!-- Left Column (Primary Details) -->
       <div class="sections-container">
         
-        <!-- Game Title and Tagline Header -->
-        <header class="presskit-header">
+        <!-- Header Banner with Title Overlay -->
+        <div class="presskit-banner" id="presskit-banner-container" style="display: none;">
+          <!-- Image will be pre-pended here via JS -->
+          <div class="banner-overlay">
+            <h1 class="game-title data-game-name">Heaven Crawler</h1>
+            <p class="game-tagline data-tagline">Climb the heavens. Purge the celestial realm. Survive the descent.</p>
+          </div>
+        </div>
+
+        <!-- Standard Game Title and Tagline Header (Fallback) -->
+        <header class="presskit-header" id="presskit-header-fallback">
           <h1 class="game-title data-game-name">Heaven Crawler</h1>
           <p class="game-tagline data-tagline">Climb the heavens. Purge the celestial realm. Survive the descent.</p>
         </header>

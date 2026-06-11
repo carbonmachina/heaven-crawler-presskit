@@ -273,6 +273,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // --- Render Global Elements (Unlocalized) ---
   function renderGlobalElements() {
+    // Set Dynamic Background Images on root document
+    if (data.backgroundImageDark) {
+      document.documentElement.style.setProperty("--bg-image-dark", `url(${data.backgroundImageDark})`);
+    }
+    if (data.backgroundImageLight) {
+      document.documentElement.style.setProperty("--bg-image-light", `url(${data.backgroundImageLight})`);
+    }
+
+    // Set Header Banner or Fallback Title
+    const bannerContainer = document.getElementById("presskit-banner-container");
+    const fallbackHeader = document.getElementById("presskit-header-fallback");
+    if (bannerContainer && data.banner) {
+      // Load banner image and recreate overlay container dynamically
+      bannerContainer.innerHTML = `
+        <img src="${data.banner}" alt="${data.gameName} Banner" class="banner-img">
+        <div class="banner-overlay">
+          <h1 class="game-title data-game-name">${data.localized[currentLanguage].gameName}</h1>
+          <p class="game-tagline data-tagline">${data.localized[currentLanguage].tagline}</p>
+        </div>
+      `;
+      bannerContainer.style.display = "block";
+      if (fallbackHeader) fallbackHeader.style.display = "none";
+    } else {
+      if (bannerContainer) bannerContainer.style.display = "none";
+      if (fallbackHeader) fallbackHeader.style.display = "block";
+    }
+
     // Set Sidebar Logo
     const sidebarLogoContainer = document.getElementById("sidebar-logo-container");
     if (sidebarLogoContainer && data.icon) {
