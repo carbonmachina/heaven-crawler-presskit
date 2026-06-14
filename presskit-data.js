@@ -12,7 +12,7 @@ const PRESSKIT_DATA = {
   // --- CORE LINKS (GLOBAL / UNLOCALIZED) ---
   logo: "images/LOGO_HD.png", // Path to your logo (transparent PNG recommended, e.g., "images/logo.png")
   icon: "images/HC_Icon 2.png", // Path to your square icon/avatar (e.g., "images/icon.png")
-  banner: "images/Heaven_crawler_STEAM_3_MAIN.png", // Path to your horizontal banner image
+  banner: "images/Heaven_crawler_STEAM_Version_4 2.png", // Path to your horizontal banner image
   backgroundImageDark: "images/Heaven_crawler_STEAM_3_MAIN.png", // Blurred background for dark mode
   backgroundImageLight: "images/Heaven_crawler_STEAM_Version_4 2.png", // Blurred background for light mode
   downloadZipUrl: "https://drive.google.com/drive/folders/1Cz93-WHIEscwkJKIfIhX-TP6RJ_A4G2u?usp=drive_link", // Your Google Drive asset folder link
