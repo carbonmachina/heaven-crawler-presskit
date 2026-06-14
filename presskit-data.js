@@ -139,7 +139,7 @@ const PRESSKIT_DATA = {
         },
         {
           caption: "Stylized Analog Inventory.",
-          url: "images/HeavenCrawler_Inventory_SS_001.gif"
+          url: "images/LAGS2026_Inventory_04.gif"
         },
         {
           caption: "An Emotional Adventure Awaits.",
